@@ -1,0 +1,24 @@
+.p-Home.Flex2{
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.p-Home.Flex3::before{
+    content: "";
+    height: 10vh;
+    width: 10vh;
+    background-color: transparent;
+    border: 30px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.p-Home.Flex3::after{
+    content: "";
+    height: 4vh;
+    width: 4vh;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}

@@ -1,0 +1,30 @@
+.p-Home.Flex1 {
+display: flex;
+width: px;
+height: 100%;
+align-items: center;
+justify-content: center;
+border-color: ;
+background-color: ;
+}
+.p-Home.Flex2 {
+display: flex;
+width: 50vh;
+height: 50vh;
+border-radius: 80px;
+align-items: center;
+justify-content: center;
+}
+.p-Home.Flex3 {
+display: flex;
+width: 30vh;
+height: 30vh;
+border-width: 30px;
+border-style: solid;
+border-color: #ffffff;
+border-radius: 30%;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+position: relative;
+}

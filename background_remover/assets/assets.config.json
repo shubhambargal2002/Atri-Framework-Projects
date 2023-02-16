@@ -1,0 +1,38 @@
+{
+  "p3.jpg": {
+    "mime": "image/jpeg"
+  },
+  "p4.jpg": {
+    "mime": "image/jpeg"
+  },
+  "p2.jpg": {
+    "mime": "image/jpeg"
+  },
+  "p1.jpg": {
+    "mime": "image/jpeg"
+  },
+  "profile_pic.png": {
+    "mime": "image/png"
+  },
+  "upload.png": {
+    "mime": "image/png"
+  },
+  "down_arrow.png": {
+    "mime": "image/png"
+  },
+  "b1.jpg": {
+    "mime": "image/jpeg"
+  },
+  "b2.jpg": {
+    "mime": "image/jpeg"
+  },
+  "b3.jpg": {
+    "mime": "image/jpeg"
+  },
+  "b4.jpg": {
+    "mime": "image/jpeg"
+  },
+  "gallery.jpg": {
+    "mime": "image/jpeg"
+  }
+}
