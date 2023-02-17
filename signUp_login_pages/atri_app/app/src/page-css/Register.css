@@ -1,0 +1,151 @@
+.p-Register.Flex9 {
+display: flex;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+border-radius: ;
+border-style: none;
+background-color: ;
+}
+.p-Register.Flex10 {
+display: flex;
+width: 30%;
+height: 80%;
+border-radius: 30px;
+border-style: solid;
+border-color: #cecece;
+flex-direction: column;
+align-items: center;
+row-gap: 25px;
+background-color: #FFF9F3;
+padding-top: 20px;
+}
+.p-Register.Flex11 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 5px;
+}
+.p-Register.Flex12 {
+display: flex;
+}
+.p-Register.Flex13 {
+display: flex;
+font-family: DM Sans;
+font-weight: 500;
+column-gap: 20px;
+font-size: 18px;
+}
+.p-Register.Input1 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+padding-right: 15px;
+color: #000000d9;
+font-size: 20px;
+background-color: #fff;
+background-image: none;
+border-width: 2px;
+border-style: none;
+border-color: #d9d9d9;
+border-radius: 10px;
+font-family: DM Sans;
+font-weight: 500;
+width: 60%;
+outline-style: none;
+}
+.p-Register.Input2 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+padding-right: 15px;
+color: #000000d9;
+font-size: 20px;
+background-color: #fff;
+background-image: none;
+border-width: 2px;
+border-style: none;
+border-color: #d9d9d9;
+border-radius: 10px;
+font-family: DM Sans;
+font-weight: 500;
+width: 60%;
+outline-style: none;
+}
+.p-Register.Input3 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+padding-right: 15px;
+color: #000000d9;
+font-size: 20px;
+background-color: #fff;
+background-image: none;
+border-width: 2px;
+border-style: none;
+border-color: #d9d9d9;
+border-radius: 10px;
+font-family: DM Sans;
+font-weight: 500;
+width: 60%;
+outline-width: px;
+outline-style: none;
+}
+.p-Register.Button8 {
+color: #fff;
+background-color: #FF7629;
+padding-top: 18px;
+padding-left: 15px;
+padding-bottom: 18px;
+padding-right: 15px;
+font-size: 18px;
+border-radius: 10px;
+outline: none;
+font-weight: 500;
+text-align: center;
+border-width: ;
+border-style: none;
+border-color: #1890ff;
+cursor: pointer;
+user-select: none;
+width: 60%;
+font-family: DM Sans;
+}
+.p-Register.TextBox6 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 32px;
+}
+.p-Register.TextBox7 {
+font-size: 18px;
+}
+.p-Register.Image1 {
+width: 120px;
+height: 120px;
+border-width: 4px;
+border-style: solid;
+border-radius: 50%;
+border-color: #ffffff;
+cursor: pointer;
+padding-left: 2px;
+padding-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.p-Register.TextBox8 {
+color: #ff0000;
+cursor: pointer;
+}
+.p-Register.TextBox9 {
+color: #757575;
+}

@@ -1,0 +1,14 @@
+{
+  "home": {
+    "name": "Home",
+    "route": "/"
+  },
+  "8f3d7cf6-2ca7-4582-bf3c-97ba8278bac6": {
+    "name": "Register",
+    "route": "/Register"
+  },
+  "1e107e05-a304-450e-b075-16a53c207681": {
+    "name": "Login",
+    "route": "/Login"
+  }
+}

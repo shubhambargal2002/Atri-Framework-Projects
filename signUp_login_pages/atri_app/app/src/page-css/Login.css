@@ -1,0 +1,200 @@
+.p-Login.Flex18 {
+display: flex;
+width: 100%;
+height: 89%;
+align-items: center;
+justify-content: center;
+border-radius: ;
+border-style: none;
+background-color: ;
+}
+.p-Login.Flex17 {
+display: flex;
+width: 30%;
+height: 80%;
+border-radius: 30px;
+border-style: solid;
+border-color: #cecece;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+background-color: #FFF9F3;
+padding-top: 20px;
+}
+.p-Login.Flex14 {
+display: flex;
+font-family: DM Sans;
+font-weight: 500;
+column-gap: 20px;
+font-size: 18px;
+}
+.p-Login.Flex15 {
+display: flex;
+}
+.p-Login.Flex16 {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 5px;
+}
+.p-Login.Flex25 {
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.p-Login.Flex24 {
+display: flex;
+column-gap: 50px;
+padding-right: 100px;
+}
+.p-Login.Button9 {
+color: #fff;
+background-color: #FF7629;
+padding-top: 18px;
+padding-left: 15px;
+padding-bottom: 18px;
+padding-right: 15px;
+font-size: 18px;
+border-radius: 10px;
+outline: none;
+font-weight: 500;
+text-align: center;
+border-width: ;
+border-style: none;
+border-color: #1890ff;
+cursor: pointer;
+user-select: none;
+width: 60%;
+font-family: DM Sans;
+margin-bottom: 10px;
+}
+.p-Login.Input4 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+padding-right: 15px;
+color: #000000d9;
+font-size: 20px;
+background-color: #fff;
+background-image: none;
+border-width: 2px;
+border-style: none;
+border-color: #d9d9d9;
+border-radius: 10px;
+font-family: DM Sans;
+font-weight: 500;
+width: 60%;
+margin-bottom: 10px;
+outline-style: none;
+}
+.p-Login.Input6 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+padding-right: 15px;
+color: #000000d9;
+font-size: 20px;
+background-color: #fff;
+background-image: none;
+border-width: 2px;
+border-style: none;
+border-color: #d9d9d9;
+border-radius: 10px;
+font-family: DM Sans;
+font-weight: 500;
+width: 60%;
+outline-style: none;
+margin-bottom: 10px;
+}
+.p-Login.TextBox10 {
+color: #757575;
+}
+.p-Login.TextBox11 {
+color: #ff0000;
+cursor: pointer;
+}
+.p-Login.Image2 {
+width: 120px;
+height: 120px;
+border-width: 4px;
+border-style: solid;
+border-radius: 50%;
+border-color: #ffffff;
+cursor: pointer;
+padding-left: 2px;
+padding-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.p-Login.TextBox12 {
+font-size: 18px;
+}
+.p-Login.TextBox13 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 32px;
+}
+.p-Login.TextBox18 {
+font-family: DM Sans;
+font-weight: 700;
+font-size: 30px;
+padding-left: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+cursor: pointer;
+}
+.p-Login.Button11 {
+color: #fff;
+background-color: #FF7629;
+padding-top: 10px;
+padding-left: 25px;
+padding-bottom: 10px;
+padding-right: 25px;
+font-size: 16px;
+border-radius: 30px;
+outline: none;
+font-weight: 500;
+text-align: center;
+border-width: ;
+border-style: none;
+border-color: ;
+cursor: pointer;
+user-select: none;
+font-family: DM Sans;
+}
+.p-Login.Button12 {
+color: #fff;
+background-color: #FF7629;
+padding-top: 10px;
+padding-left: 25px;
+padding-bottom: 10px;
+padding-right: 25px;
+font-size: 16px;
+border-radius: 30px;
+outline: none;
+font-weight: 500;
+text-align: center;
+border-width: ;
+border-style: none;
+border-color: ;
+cursor: pointer;
+user-select: none;
+font-family: DM Sans;
+}
+@media screen and (max-width: 478px) {
+	.p-Login.Flex17.bpt {
+width: 99%;
+	}
+}
