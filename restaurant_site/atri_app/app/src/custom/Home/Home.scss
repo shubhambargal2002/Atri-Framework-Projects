@@ -1,0 +1,22 @@
+.p-Home.TextBox3:hover,.p-Home.TextBox4:hover,.p-Home.TextBox5:hover,.p-Home.TextBox6:hover,.p-Home.TextBox7:hover{
+    color: #bbbbbb;
+}
+
+.p-Home.Button2:hover,.p-Home.Button1:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.p-Home.Flex97{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    width: max-content;
+}
+
+.p-Home.Flex97::-webkit-scrollbar{
+    display: none;
+}
+
+video{
+    width: 100%;
+}

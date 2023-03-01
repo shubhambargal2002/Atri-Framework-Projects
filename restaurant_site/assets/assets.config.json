@@ -1,0 +1,71 @@
+{
+  "gericht.png": {
+    "mime": "image/png"
+  },
+  "spoon.png": {
+    "mime": "image/png"
+  },
+  "welcome.png": {
+    "mime": "image/png"
+  },
+  "knife.png": {
+    "mime": "image/png"
+  },
+  "menu.png": {
+    "mime": "image/png"
+  },
+  "chef.png": {
+    "mime": "image/png"
+  },
+  "quote.png": {
+    "mime": "image/png"
+  },
+  "sign.png": {
+    "mime": "image/png"
+  },
+  "meal.mp4": {
+    "mime": "video/mp4"
+  },
+  "award01.png": {
+    "mime": "image/png"
+  },
+  "award02.png": {
+    "mime": "image/png"
+  },
+  "award03.png": {
+    "mime": "image/png"
+  },
+  "award04.png": {
+    "mime": "image/png"
+  },
+  "laurels.png": {
+    "mime": "image/png"
+  },
+  "left_arrow.png": {
+    "mime": "image/png"
+  },
+  "right_arrow.png": {
+    "mime": "image/png"
+  },
+  "gallery02.png": {
+    "mime": "image/png"
+  },
+  "gallery03.png": {
+    "mime": "image/png"
+  },
+  "gallery04.png": {
+    "mime": "image/png"
+  },
+  "gallery01.png": {
+    "mime": "image/png"
+  },
+  "findus.png": {
+    "mime": "image/png"
+  },
+  "all_in_one_apps.png": {
+    "mime": "image/png"
+  },
+  "instagram.png": {
+    "mime": "image/png"
+  }
+}
