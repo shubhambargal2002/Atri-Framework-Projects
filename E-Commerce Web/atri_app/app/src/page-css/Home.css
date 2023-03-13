@@ -1,0 +1,50 @@
+.p-Home.Flex1 {
+display: flex;
+justify-content: space-between;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.p-Home.Flex2 {
+display: flex;
+}
+.p-Home.Flex3 {
+display: flex;
+column-gap: 30px;
+}
+.p-Home.Flex4 {
+display: flex;
+column-gap: 30px;
+}
+.p-Home.Flex5 {
+display: flex;
+column-gap: 8px;
+}
+.p-Home.TextBox1 {
+;
+}
+.p-Home.TextBox2 {
+;
+}
+.p-Home.TextBox3 {
+;
+}
+.p-Home.TextBox4 {
+;
+}
+.p-Home.TextBox5 {
+;
+}
+.p-Home.Div1 {
+height: 20px;
+width: 2px;
+background-color: #686868;
+}
+.p-Home.Image1 {
+width: 20px;
+height: ;
+}
+.p-Home.TextBox6 {
+;
+}

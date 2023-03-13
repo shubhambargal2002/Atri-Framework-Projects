@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Users\Lenovo\.atri\webapp-builder-win.exe.v0.0.78 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Lenovo\.virtualenvs\E-Commerce_Web-j8tzkI0Q\Scripts;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Lenovo\AppData\Roaming\Python\Python311\Scripts;C:\Users\Lenovo\AppData\Roaming\Python\Python311\site-packages;C:\Program Files\Python311\Scripts;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\TDM-GCC-64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin;;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\GitHubDesktop\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.78",
+      "@atrilabs/core": "^0.0.78",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.78"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
