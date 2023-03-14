@@ -8,7 +8,7 @@ import { Flex } from "@atrilabs/react-component-manifests/src/manifests/Flex/Fle
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { useFlex1Cb, useFlex2Cb, useFlex3Cb, useFlex4Cb, useFlex5Cb, useTextBox1Cb, useTextBox2Cb, useTextBox3Cb, useTextBox4Cb, useTextBox5Cb, useDiv1Cb, useImage1Cb, useTextBox6Cb } from "../page-cbs/Home";
+import { useFlex1Cb, useFlex2Cb, useFlex3Cb, useFlex4Cb, useFlex5Cb, useFlex6Cb, useFlex8Cb, useTextBox1Cb, useTextBox2Cb, useTextBox3Cb, useTextBox4Cb, useTextBox5Cb, useDiv1Cb, useImage1Cb, useTextBox6Cb, useFlex7Cb, useImage2Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -43,6 +43,12 @@ const Flex4Cb = useFlex4Cb()
 const Flex5Props = useStore((state)=>state["Home"]["Flex5"]);
 const Flex5IoProps = useIoStore((state)=>state["Home"]["Flex5"]);
 const Flex5Cb = useFlex5Cb()
+const Flex6Props = useStore((state)=>state["Home"]["Flex6"]);
+const Flex6IoProps = useIoStore((state)=>state["Home"]["Flex6"]);
+const Flex6Cb = useFlex6Cb()
+const Flex8Props = useStore((state)=>state["Home"]["Flex8"]);
+const Flex8IoProps = useIoStore((state)=>state["Home"]["Flex8"]);
+const Flex8Cb = useFlex8Cb()
 const TextBox1Props = useStore((state)=>state["Home"]["TextBox1"]);
 const TextBox1IoProps = useIoStore((state)=>state["Home"]["TextBox1"]);
 const TextBox1Cb = useTextBox1Cb()
@@ -67,6 +73,12 @@ const Image1Cb = useImage1Cb()
 const TextBox6Props = useStore((state)=>state["Home"]["TextBox6"]);
 const TextBox6IoProps = useIoStore((state)=>state["Home"]["TextBox6"]);
 const TextBox6Cb = useTextBox6Cb()
+const Flex7Props = useStore((state)=>state["Home"]["Flex7"]);
+const Flex7IoProps = useIoStore((state)=>state["Home"]["Flex7"]);
+const Flex7Cb = useFlex7Cb()
+const Image2Props = useStore((state)=>state["Home"]["Image2"]);
+const Image2IoProps = useIoStore((state)=>state["Home"]["Image2"]);
+const Image2Cb = useImage2Cb()
 
   return (<>
   <Flex className="p-Home Flex1 bpt" {...Flex1Props} {...Flex1Cb} {...Flex1IoProps}>
@@ -85,6 +97,12 @@ const TextBox6Cb = useTextBox6Cb()
 <Image className="p-Home Image1 bpt" {...Image1Props} {...Image1Cb} {...Image1IoProps}/>
 <TextBox className="p-Home TextBox6 bpt" {...TextBox6Props} {...TextBox6Cb} {...TextBox6IoProps}/>
 </Flex>
+</Flex>
+</Flex>
+<Flex className="p-Home Flex6 bpt" {...Flex6Props} {...Flex6Cb} {...Flex6IoProps}>
+<Flex className="p-Home Flex7 bpt" {...Flex7Props} {...Flex7Cb} {...Flex7IoProps}/>
+<Flex className="p-Home Flex8 bpt" {...Flex8Props} {...Flex8Cb} {...Flex8IoProps}>
+<Image className="p-Home Image2 bpt" {...Image2Props} {...Image2Cb} {...Image2IoProps}/>
 </Flex>
 </Flex>
   </>);

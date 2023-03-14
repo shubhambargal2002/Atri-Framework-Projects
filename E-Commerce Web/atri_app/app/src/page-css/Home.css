@@ -21,6 +21,15 @@ column-gap: 30px;
 display: flex;
 column-gap: 8px;
 }
+.p-Home.Flex6 {
+display: flex;
+padding-left: 100px;
+padding-right: 100px;
+}
+.p-Home.Flex8 {
+display: flex;
+width: 50%;
+}
 .p-Home.TextBox1 {
 ;
 }
@@ -46,5 +55,12 @@ width: 20px;
 height: ;
 }
 .p-Home.TextBox6 {
+;
+}
+.p-Home.Flex7 {
+display: flex;
+width: 50%;
+}
+.p-Home.Image2 {
 ;
 }

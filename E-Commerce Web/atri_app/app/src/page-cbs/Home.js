@@ -184,3 +184,55 @@ export function useTextBox6Cb() {
 }), [])
 	return { onClick }
 }
+export function useFlex6Cb() {
+	const onClick = useCallback(callbackFactory("Flex6", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex7Cb() {
+	const onClick = useCallback(callbackFactory("Flex7", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex8Cb() {
+	const onClick = useCallback(callbackFactory("Flex8", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage2Cb() {
+	const onClick = useCallback(callbackFactory("Image2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}

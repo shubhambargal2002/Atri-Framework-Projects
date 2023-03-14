@@ -55,6 +55,12 @@ const desktopModeProps = {
     "Flex5": {
       "callbacks": {}
     },
+    "Flex6": {
+      "callbacks": {}
+    },
+    "Flex8": {
+      "callbacks": {}
+    },
     "TextBox1": {
       "custom": {
         "text": "E-Commerce"
@@ -134,6 +140,21 @@ const desktopModeProps = {
     "TextBox6": {
       "custom": {
         "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex7": {
+      "callbacks": {}
+    },
+    "Image2": {
+      "custom": {
+        "alt": "No preview available"
       },
       "callbacks": {
         "onClick": [
